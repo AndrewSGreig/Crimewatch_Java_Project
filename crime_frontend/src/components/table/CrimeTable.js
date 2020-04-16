@@ -158,7 +158,7 @@ export default function CrimeTable(props) {
   const newCrimes = [];
   for(let crimeCat in rOUkCrimeCategories){
     const crimeDomStats = (
-      <p><li key={crimeCat} className="newCrimesLi"> {crimeCat}: {rOUkCrimeCategories[crimeCat]} </li></p>
+      <li key={crimeCat} className="newCrimesLi"> {crimeCat}: {rOUkCrimeCategories[crimeCat]} </li>
 
     )
     newCrimes.push(crimeDomStats);
